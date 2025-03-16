@@ -12,8 +12,13 @@ import io
 import base64
 
 # Définir les chemins
-MODEL_PATH = '../models/best_model.h5'
-CATEGORIES_PATH = '../models/categories.pkl'
+#MODEL_PATH = '../models/best_model.h5'
+#CATEGORIES_PATH = '../models/categories.pkl'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Dossier où se trouve app.py
+PARENT_DIR = os.path.dirname(BASE_DIR)  # Aller un niveau en arrière
+
+MODEL_PATH = os.path.join(PARENT_DIR, "models", "best_model.h5")
+CATEGORIES_PATH = os.path.join(PARENT_DIR, "models", "categories.pkl")
 
 # Fonction pour charger l'image et extraire les caractéristiques
 @st.cache_data
