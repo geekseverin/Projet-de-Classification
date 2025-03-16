@@ -124,8 +124,6 @@ L'application permet de télécharger une image ou de prendre une photo pour cla
 
 ## Auteur
 
-[Votre Nom]
+Séverin PIDJAKARE
 
-## Licence
-
-[Spécifiez votre licence ici]
+Vous  pouvez tester le model sur ce lien https://shorturl.at/0hRI8
